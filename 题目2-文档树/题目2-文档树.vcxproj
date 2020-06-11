@@ -124,10 +124,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="主函数.cpp" />
+    <ClCompile Include="白靖.cpp" />
+    <ClCompile Include="雷雯雯.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="白靖.h" />
-    <ClInclude Include="雷雯雯.h" />
+    <ClInclude Include="数据结构.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

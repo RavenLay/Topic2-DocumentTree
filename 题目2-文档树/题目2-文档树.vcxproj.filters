@@ -18,12 +18,15 @@
     <ClCompile Include="主函数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="白靖.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="雷雯雯.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="白靖.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="雷雯雯.h">
+    <ClInclude Include="数据结构.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
