@@ -1,5 +1,15 @@
 #include "数据结构.h"
 
+//析构函数 释放vector容器内存
+Tree::~Tree()
+{
+	for (vector<Tree*>::iterator it = TreeNode.begin(); it != TreeNode.end(); it++)
+	{
+		delete *it;
+	}
+	TreeNode.clear();//清空vector容器
+}
+
 //功能一建树并输出结构，数据机构
 void Tree::CreateTreeAndPrint(Tree* &T)
 {
@@ -8,6 +18,7 @@ void Tree::CreateTreeAndPrint(Tree* &T)
 	//建树
 	//图形化输出
 }
+
 //功能四
 void Tree::SearchAndPrintTxt(Tree* &T)
 {

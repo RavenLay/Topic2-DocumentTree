@@ -15,6 +15,7 @@ private:
 	//新增函数声明标记处
 
 public:
+	~Tree();
 	//文档树函数
 	void CreateTreeAndPrint(Tree* &T);//功能一
 	void Insert(Tree* &T);//功能二

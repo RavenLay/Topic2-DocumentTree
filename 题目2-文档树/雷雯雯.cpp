@@ -5,6 +5,7 @@ void Tree::Insert(Tree* &T)
 {
 
 }
+
 //¹¦ÄÜÈı
 void Tree::SearchAndPrintLable(Tree* &T)
 {

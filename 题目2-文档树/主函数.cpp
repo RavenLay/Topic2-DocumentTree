@@ -8,7 +8,7 @@ int main()
 
 	//功能选择界面(待美化)
 	int flag = 0;
-	cout << "Please input your choice";
+	cout << "Please input your choice" << endl;
 	cin >> flag;
 
 	//功能执行
