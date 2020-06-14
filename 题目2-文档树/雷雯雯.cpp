@@ -1,13 +1,13 @@
 #include "数据结构.h"
 
 //功能二
-void Tree::Insert(Tree* &T)
+void Tree::Insert()
 {
 
 }
 
 //功能三
-void Tree::SearchAndPrintLable(Tree* &T)
+void Tree::SearchAndPrintLable()
 {
 
 }
